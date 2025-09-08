@@ -1,0 +1,13 @@
+ul{
+    background-color: #ffe195;
+    color:rgb(0, 0, 0);
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+li{
+    font-size: large;
+}

@@ -1,0 +1,14 @@
+<div class="recipe-container">
+    <div class="recipe-card">
+        <img src={{card.image}} alt="{{card.name}}" class="recipe-image">
+        <div class="recipe-info">
+            <h3 class="recipe-title">{{card.name}}</h3>
+            <div class="recipe-details">
+                <span class="servings">🍽️ {{card.servings}} servings</span>
+                <span class="difficulty">⭐ {{card.difficulty}}</span>
+                <span class="cuisine">🌍 {{card.cuisine}}</span>
+            </div>
+            <button routerLink="/recipes/{{card.id}}" class="view-btn">View Recipe →</button>
+        </div>
+    </div>
+</div>

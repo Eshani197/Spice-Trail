@@ -1,0 +1,89 @@
+/* General Page Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Recipe Card */
+.recipe-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    margin: 20px 0;
+    transition: transform 0.2s ease-in-out;
+    padding: 15px;
+}
+
+.recipe-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Image Styling */
+.figure-img {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Title & Description */
+.recipe-card h1,
+.recipe-card h3,
+.recipe-card h4,
+.recipe-card h5 {
+    font-weight: 600;
+}
+
+.recipe-card p {
+    font-size: 0.95rem;
+}
+
+/* Stars */
+.rating-stars {
+    color: #ffc107;
+    font-size: 1.1rem;
+}
+
+/* Time & Servings */
+.time-original,
+.time-current,
+.cook-badge {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #495057;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* Difficulty Badge */
+.badge.bg-success {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* Ingredient & Instruction Lists */
+.ingredient-list,
+.instruction-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.ingredient-list li,
+.instruction-list li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+/* Buttons */
+button.btn-lg {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
